@@ -130,15 +130,6 @@ manimator create "..." --output ./my-videos
 manimator create "..." --verbose
 ```
 
-## 🤖 Supported Providers
-
-| Provider          | Models                                               | Setup                                                    |
-| ----------------- | ---------------------------------------------------- | -------------------------------------------------------- |
-| **OpenAI**        | gpt-4o, gpt-4-turbo, gpt-4o-mini, gpt-3.5-turbo      | `manimator config --provider openai --key sk-...`        |
-| **Anthropic**     | claude-opus-4-5, claude-sonnet-4-5, claude-haiku-4-5 | `manimator config --provider anthropic --key sk-ant-...` |
-| **Google Gemini** | gemini-2.5-pro, gemini-2.5-flash, gemini-2.0-flash   | `manimator config --provider gemini --key AI...`         |
-| **Ollama**        | codellama, llama3, mistral, deepseek-coder           | `manimator config --provider ollama` (no key needed)     |
-
 ## 🛠️ Development
 
 ```bash
