@@ -16,6 +16,8 @@ Turn plain-English prompts into polished `.mp4` animations using LLMs and [Manim
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+🌐 **[Landing Page](https://y-three-mu-63.vercel.app/)**
+
 </div>
 
 ---
