@@ -1,0 +1,53 @@
+[project]
+name = "manimator"
+version = "0.1.0"
+description = "Natural Language → Mathematical Animations using LLMs and Manim"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "manimator contributors" }]
+keywords = ["manim", "animation", "llm", "cli", "mathematics"]
+
+dependencies = [
+    "typer[all]>=0.12",
+    "rich>=13.0",
+    "openai>=1.0",
+    "anthropic>=0.25",
+    "langchain>=0.2",
+    "langchain-community>=0.2",
+    "langchain-ollama>=0.1",
+    "google-genai>=1.0",
+    "pydantic>=2.0",
+    "keyring>=24.0",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/manimator-cli"
+Repository = "https://github.com/YOUR_USERNAME/manimator-cli"
+Issues = "https://github.com/YOUR_USERNAME/manimator-cli/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-mock>=3.0",
+]
+
+[project.scripts]
+manimator = "manimator.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["manimator"]
