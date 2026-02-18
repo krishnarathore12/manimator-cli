@@ -94,6 +94,7 @@ def create(
 ) -> None:
     """Generate a Manim animation from a natural-language description."""
     from manimator.config_manager import ConfigManager
+    from manimator.conversation import generate_video_name, generate_unique_filename
     from manimator.corrector import AutoCorrector
     from manimator.renderer import ManimRenderer
     from manimator.utils.logger import log_error, log_success
@@ -131,10 +132,15 @@ def create(
         verbose=resolved_verbose,
     )
 
+    # Auto-generate a unique filename from the description
+    base_name = generate_video_name(description)
+    output_file = generate_unique_filename(resolved_output, base_name, version=1)
+
     output_path = corrector.run(
         description=description,
         quality=resolved_quality,
         output_dir=resolved_output,
+        output_filename=output_file.name,
     )
 
     if output_path and resolved_preview:
