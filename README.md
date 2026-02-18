@@ -130,7 +130,29 @@ manimator create "..." --output ./my-videos
 manimator create "..." --verbose
 ```
 
-## 🛠️ Development
+## � Example Prompts
+
+Try these with `manimator create` or `manimator chat`:
+
+```bash
+manimator create "a blue circle that morphs into a red square"
+
+manimator create "visualize the Pythagorean theorem with animated squares on each side"
+
+manimator create "show a sine wave being drawn in real-time with a moving dot"
+
+manimator create "animate sorting an array of bars using bubble sort"
+
+manimator create "draw a fractal tree that grows branch by branch"
+
+manimator create "show how matrix multiplication works step by step with 2x2 matrices"
+
+manimator create "a 3D rotating cube with colored faces"
+
+manimator create "animate the derivative of x^2 showing the tangent line sliding along the curve"
+```
+
+## �🛠️ Development
 
 ```bash
 # Clone and install in dev mode
