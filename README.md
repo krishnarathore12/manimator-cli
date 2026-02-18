@@ -130,7 +130,7 @@ manimator create "..." --output ./my-videos
 manimator create "..." --verbose
 ```
 
-## � Example Prompts
+## Example Prompts
 
 Try these with `manimator create` or `manimator chat`:
 
@@ -152,7 +152,7 @@ manimator create "a 3D rotating cube with colored faces"
 manimator create "animate the derivative of x^2 showing the tangent line sliding along the curve"
 ```
 
-## �🛠️ Development
+## 🛠️ Development
 
 ```bash
 # Clone and install in dev mode
