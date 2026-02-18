@@ -49,7 +49,7 @@ pip install git+https://github.com/krishnarathore12/manimator-cli.git
 ### Install from source (for development)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/manimator-cli.git
+git clone https://github.com/krishnarathore12/manimator-cli.git
 cd manimator-cli
 pip install -e .
 ```
