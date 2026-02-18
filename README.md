@@ -141,7 +141,7 @@ manimator create "..." --verbose
 
 ```bash
 # Clone and install in dev mode
-git clone https://github.com/YOUR_USERNAME/manimator-cli.git
+git clone https://github.com/krishnarathore12/manimator-cli.git
 cd manimator-cli
 pip install -e ".[dev]"
 
